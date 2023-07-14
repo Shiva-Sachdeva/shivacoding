@@ -1,0 +1,51 @@
+.seat-reservation {
+    text-align: center;
+  }
+  
+  .seat-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .seat-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .seat.selected {
+    background-color: orange;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button-group input {
+    width: 40px;
+  }
+  
+  .selected-seats {
+    margin-top: 20px;
+  }
+  
+  .selected-seats ul {
+    list-style: none;
+  }
+  
+  .selected-seats li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
